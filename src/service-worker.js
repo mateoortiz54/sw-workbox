@@ -84,6 +84,7 @@ self.addEventListener('install', async (event)=>{
 
 })
 
+// forma mas sencilla de condicional
 const appiOfflineFallbacks = [
   'http://localhost:4001/api/auth/renew',
   'http://localhost:4001/api/events',
